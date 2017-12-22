@@ -6,18 +6,18 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-		sleep(3000)
+		sleep(3)
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-		sleep(3000)
+		sleep(3)
             }
         }
         stage('Deploy') {
             steps {
-		sleep(5000)
+		sleep(5)
                 echo 'Deploying....'
             }
         }
